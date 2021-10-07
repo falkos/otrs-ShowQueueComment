@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+   <otrs_package version="1.0">
+   <!-- GENERATED WITH OTRS::OPM::Maker::Command::sopm (1.29) -->
+   <Name>ShowQueueComment</Name>
+   <Version>6.1.0</Version>
+   <Framework>6.0.x</Framework>
+   <Framework>6.1.x</Framework>
+   <Vendor>Perl-Services.de</Vendor>
+   <URL>http://www.perl-services.de</URL>
+   <Description Lang="de">Zeige Queue-Kommentare in Ticketerstellmasken.</Description>
+   <Description Lang="en">Show queue comment in ticket create forms</Description>
+   <ChangeLog Version="6.1.0" Date="2021-10-07 15:13:00">Added the Framework version 6.1.x for Znuny 6.1.1</ChangeLog>
+   <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
+   <Filelist>
+      <File Permission="644" Location="Custom/Kernel/Output/HTML/FilterElementPost/ShowQueueComment.pm" />
+      <File Permission="644" Location="Kernel/Config/Files/XML/ShowQueueComment.xml" />
+   </Filelist>
+</otrs_package>
